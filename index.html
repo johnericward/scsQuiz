@@ -41,7 +41,14 @@
         }
 
         .quizArea {
-            margin: 5% 2%;
+            margin: 1% 2%;
+        }
+
+        .quizCenter {
+            align-content: center;
+            margin: 0 auto;
+            /* text-align: center; */
+            align-items: center;
         }
 
         #submitQuizBtnID {
@@ -93,6 +100,11 @@
             font-weight: bold;
             font-size: 1.5em;
         }
+        .answersAreaDisplay {
+            margin: 1% 2%;
+        }
+
+
     </style>
 
     <!-- ----------------------------------------------------------------------------------------- -->
@@ -118,22 +130,22 @@
         <div class="row quizArea">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-
+                <div class="quizCenter">
                 <div class="row q1">
                     <div class="col-lg-12">
                         1. What is your favorite meal of the day?
                         <br><br>
                         <input type="radio" id="q1type2" name="q1" value="type2">
-                        <label for="q1"> A. Breakfast (Type 2)</label>
+                        <label for="q1"> A. Breakfast</label>
                         <br>
                         <input type="radio" id="q1type1" name="q1" value="type1">
-                        <label for="q1"> B. Lunch (Type 1)</label>
+                        <label for="q1"> B. Lunch</label>
                         <br>
                         <input type="radio" id="q1type3" name="q1" value="type3">
-                        <label for="q1"> C. Dinner (Type 3)</label>
+                        <label for="q1"> C. Dinner</label>
                         <br>
                         <input type="radio" id="q1type4" name="q1" value="type2">
-                        <label for="q1"> D. Snacks (Type 2)</label>
+                        <label for="q1"> D. Snacks</label>
                         <br>
 
                         <br><br>
@@ -144,16 +156,16 @@
                         2. What type of media do you use the most?
                         <br><br>
                         <input type="radio" id="q2type3" name="q2" value="type3">
-                        <label for="q2"> A. Online Streaming (Netflix, HBO Max, etc.) (Type 3)</label>
+                        <label for="q2"> A. Online Streaming (Netflix, HBO Max, etc.)</label>
                         <br>
                         <input type="radio" id="q2type1" name="q2" value="type1">
-                        <label for="q2"> B. Social Media (Instagram, Facebook, TikTok) (Type 1)</label>
+                        <label for="q2"> B. Social Media (Instagram, Facebook, TikTok)</label>
                         <br>
                         <input type="radio" id="q2type4" name="q2" value="type1">
-                        <label for="q2"> C. Video Games (Switch, Playstation, Online Gaming) (Type 1)</label>
+                        <label for="q2"> C. Video Games (Switch, Playstation, Online Gaming)</label>
                         <br>
                         <input type="radio" id="q2type2" name="q2" value="type2">
-                        <label for="q2"> D. Internet Surfing (Type 2)</label>
+                        <label for="q2"> D. Internet Surfing</label>
                         <br>
 
                         <br><br>
@@ -164,16 +176,16 @@
                         3. Which is your idea of a day well spent?
                          <br><br>
                         <input type="radio" id="q3type1" name="q3" value="type1">
-                        <label for="q3"> A. Going to the beach for the day (Type 1)</label>
+                        <label for="q3"> A. Going to the beach for the day</label>
                         <br>
                         <input type="radio" id="q3type3" name="q3" value="type3">
-                        <label for="q3"> B. Going to explore something new (Type 3)</label>
+                        <label for="q3"> B. Going to explore something new</label>
                         <br>
                         <input type="radio" id="q3type2" name="q3" value="type2">
-                        <label for="q3"> C. Getting things done around the house (Type 2)</label>
+                        <label for="q3"> C. Getting things done around the house</label>
                         <br>
                         <input type="radio" id="q3type4" name="q3" value="type3">
-                        <label for="q3"> D. Not leaving the bed (Type 3)</label>
+                        <label for="q3"> D. Not leaving the bed</label>
                         <br>
 
                         <br><br>
@@ -184,16 +196,16 @@
                         4. If you won the lottery, what would you do?
                         <br><br>
                         <input type="radio" id="q4type3" name="q4" value="type3">
-                        <label for="q4"> A. Immediately get on a plane and see the world (Type 3)</label>
+                        <label for="q4"> A. Immediately get on a plane and see the world</label>
                         <br>
                         <input type="radio" id="q4type1" name="q4" value="type1">
-                        <label for="q4"> B. Call my friends and family to celebrate (Type 1)</label>
+                        <label for="q4"> B. Call my friends and family to celebrate</label>
                         <br>
                         <input type="radio" id="q4type4" name="q4" value="type1">
-                        <label for="q4"> C. Buy all the things (Type 1)</label>
+                        <label for="q4"> C. Buy all the things</label>
                         <br>
                         <input type="radio" id="q4type2" name="q4" value="type2">
-                        <label for="q4"> D. Plan out my future with new financial freedom (Type 2)</label>
+                        <label for="q4"> D. Plan out my future with new financial freedom</label>
                         <br>
 
                         <br><br>
@@ -204,16 +216,16 @@
                         5. What do you do after a hard day of work?
                         <br><br>
                         <input type="radio" id="q5type1" name="q5" value="type1">
-                        <label for="q5"> A. Go home and go straight to bed (Type 1)</label>
+                        <label for="q5"> A. Go home and go straight to bed</label>
                         <br>
                         <input type="radio" id="q5type3" name="q5" value="type3">
-                        <label for="q5"> B. Shake it off by going out with my friends (Type 3)</label>
+                        <label for="q5"> B. Shake it off by going out with my friends</label>
                         <br>
                         <input type="radio" id="q5type4" name="q5" value="type3">
-                        <label for="q5"> C. Call someone close to talk through the difficulties (Type 3)</label>
+                        <label for="q5"> C. Call someone close to talk through the difficulties</label>
                         <br>
                         <input type="radio" id="q5type2" name="q5" value="type2">
-                        <label for="q5"> D. Refocus my energy on the home projects (Type 2)</label>
+                        <label for="q5"> D. Refocus my energy on the home projects</label>
                         <br>
 
                         <br><br>
@@ -224,16 +236,16 @@
                         6. Which is your favorite color?
                         <br><br>
                         <input type="radio" id="q6type3" name="q6" value="type3">
-                        <label for="q6"> A. Black (Type 3)</label>
+                        <label for="q6"> A. Black</label>
                         <br>
                         <input type="radio" id="q6type2" name="q6" value="type2">
-                        <label for="q6"> B. Blue (Type 2)</label>
+                        <label for="q6"> B. Blue</label>
                         <br>
                         <input type="radio" id="q6type1" name="q6" value="type1">
-                        <label for="q6"> C. Green (Type 1)</label>
+                        <label for="q6"> C. Green</label>
                         <br>
                         <input type="radio" id="q6type4" name="q6" value="type1">
-                        <label for="q6"> D. Rainbow (Type 1)</label>
+                        <label for="q6"> D. Rainbow</label>
                         <br>
 
                         <br><br>
@@ -244,16 +256,16 @@
                         7. What is your preferred way to exercise?
                         <br><br>
                         <input type="radio" id="q7type1" name="q7" value="type1">
-                        <label for="q7"> A. Just being outside and moving with life (Type 1)</label>
+                        <label for="q7"> A. Just being outside and moving with life</label>
                         <br>
                         <input type="radio" id="q7type2" name="q7" value="type2">
-                        <label for="q7"> B. Doing Cardio (running, cycling, etc) (Type 2)</label>
+                        <label for="q7"> B. Doing Cardio (running, cycling, etc)</label>
                         <br>
                         <input type="radio" id="q7type4" name="q7" value="type2">
-                        <label for="q7"> C. Lifting weights (Type 2)</label>
+                        <label for="q7"> C. Lifting weights</label>
                         <br>
                         <input type="radio" id="q7type3" name="q7" value="type3">
-                        <label for="q7"> D. Walking (Type 3)</label>
+                        <label for="q7"> D. Walking</label>
                         <br>
 
                         <br><br>
@@ -264,16 +276,16 @@
                         8. When you read, what do you prefer?
                         <br><br>
                         <input type="radio" id="q8type2" name="q8" value="type2">
-                        <label for="q8"> A. Hard copy of a book (Type 2)</label>
+                        <label for="q8"> A. Hard copy of a book</label>
                         <br>
                         <input type="radio" id="q8type1" name="q8" value="type1">
-                        <label for="q8"> B. Audiobook (Type 1)</label>
+                        <label for="q8"> B. Audiobook</label>
                         <br>
                         <input type="radio" id="q8type4" name="q8" value="type2">
-                        <label for="q8"> C. Kindle (Type 2)</label>
+                        <label for="q8"> C. Kindle</label>
                         <br>
                         <input type="radio" id="q8type3" name="q8" value="type3">
-                        <label for="q8"> D. Phone (Type 3)</label>
+                        <label for="q8"> D. Phone</label>
                         <br>
 
                         <br><br>
@@ -284,16 +296,16 @@
                         9. What kind of music puts you in a good mood?
                         <br><br>
                         <input type="radio" id="q9type3" name="q9" value="type3">
-                        <label for="q9"> A. Pop/Dance (Type 3)</label>
+                        <label for="q9"> A. Pop/Dance</label>
                         <br>
                         <input type="radio" id="q9type2" name="q9" value="type2">
-                        <label for="q9"> B. Singer/Songwriter/Rock (Type 2)</label>
+                        <label for="q9"> B. Singer/Songwriter/Rock</label>
                         <br>
                         <input type="radio" id="q9type4" name="q9" value="type2">
-                        <label for="q9"> C. Oldies/Jazz (Type 2)</label>
+                        <label for="q9"> C. Oldies/Jazz</label>
                         <br>
                         <input type="radio" id="q9type1" name="q9" value="type1">
-                        <label for="q9"> D. Hip Hop/Rap (Type 1)</label>
+                        <label for="q9"> D. Hip Hop/Rap</label>
                         <br>
 
                         <br><br>
@@ -304,13 +316,13 @@
                         10. Where do you prefer to vacation?
                         <br><br>
                         <input type="radio" id="q10type2" name="q10" value="type2">
-                        <label for="q10"> A. Hiking in the mountains (Type 2)</label>
+                        <label for="q10"> A. Hiking in the mountains</label>
                         <br>
                         <input type="radio" id="q10type3" name="q10" value="type3">
-                        <label for="q10"> B. Seeing the sights in Europe (Type 3)</label>
+                        <label for="q10"> B. Seeing the sights in Europe</label>
                         <br>
                         <input type="radio" id="q10type1" name="q10" value="type1">
-                        <label for="q10"> C. Relaxing on the beach (Type 1)</label>
+                        <label for="q10"> C. Relaxing on the beach</label>
                         <br>
                         <input type="radio" id="q10type4" name="q10" value="type1">
                         <label for="q10"> D. Staycation (Type 1)</label>
@@ -324,16 +336,16 @@
                         11. How often do you get a massage?
                         <br><br>
                         <input type="radio" id="q11type3" name="q11" value="type3">
-                        <label for="q11"> A. When I'm injured (Type 3)</label>
+                        <label for="q11"> A. When I'm injured</label>
                         <br>
                         <input type="radio" id="q11type1" name="q11" value="type1">
                         <label for="q11"> B. Semi-regularly (Type 1)</label>
                         <br>
                         <input type="radio" id="q11type4" name="q11" value="type1">
-                        <label for="q11"> C. On vacation (Type 1)</label>
+                        <label for="q11"> C. On vacation</label>
                         <br>
                         <input type="radio" id="q11type2" name="q11" value="type2">
-                        <label for="q11"> D. I've never had a massage (Type 2)</label>
+                        <label for="q11"> D. I've never had a massage</label>
                         <br>
 
                         <br><br>
@@ -344,16 +356,16 @@
                         12. How often do you see your friends?
                         <br><br>
                         <input type="radio" id="q12type1" name="q12" value="type1">
-                        <label for="q12"> A. We have a weekly hang time (Type 1)</label>
+                        <label for="q12"> A. We have a weekly hang time</label>
                         <br>
                         <input type="radio" id="q12type2" name="q12" value="type2">
-                        <label for="q12"> B. At scheduled functions and work events (Type 2)</label>
+                        <label for="q12"> B. At scheduled functions and work events</label>
                         <br>
                         <input type="radio" id="q12type3" name="q12" value="type3">
-                        <label for="q12"> C. Randomly but not enough (Type 3)</label>
+                        <label for="q12"> C. Randomly but not enough</label>
                         <br>
                         <input type="radio" id="q12type4" name="q12" value="type2">
-                        <label for="q12"> D. I need to make more friends (Type 2)</label>
+                        <label for="q12"> D. I need to make more friends</label>
                         <br>
 
                         <br><br>
@@ -364,16 +376,16 @@
                         13. What is your favorite type of movie?
                         <br><br>
                         <input type="radio" id="q13type2" name="q13" value="type2">
-                        <label for="q13"> A. Action/Epic (Type 2)</label>
+                        <label for="q13"> A. Action/Epic</label>
                         <br>
                         <input type="radio" id="q13type3" name="q13" value="type3">
-                        <label for="q13"> B. Romantic/Comedy (Type 3)</label>
+                        <label for="q13"> B. Romantic/Comedy</label>
                         <br>
                         <input type="radio" id="q13type4" name="q13" value="type3">
-                        <label for="q13"> C. Documentary/Educational (Type 3)</label>
+                        <label for="q13"> C. Documentary/Educational</label>
                         <br>
                         <input type="radio" id="q13type1" name="q13" value="type1">
-                        <label for="q13"> D. Anime/Cartoon (Type 1)</label>
+                        <label for="q13"> D. Anime/Cartoon</label>
                         <br>
 
                         <br><br>
@@ -384,16 +396,16 @@
                         14. What types of books do you enjoy?
                         <br><br>
                         <input type="radio" id="q14type2" name="q14" value="type2">
-                        <label for="q14"> A. Biography/Historical Non-fiction (Type 2)</label>
+                        <label for="q14"> A. Biography/Historical Non-fiction</label>
                         <br>
                         <input type="radio" id="q14type3" name="q14" value="type3">
-                        <label for="q14"> B. Poetry (Type 3)</label>
+                        <label for="q14"> B. Poetry</label>
                         <br>
                         <input type="radio" id="q14type1" name="q14" value="type1">
-                        <label for="q14"> C. Fiction (Type 1)</label>
+                        <label for="q14"> C. Fiction</label>
                         <br>
                         <input type="radio" id="q14type4" name="q14" value="type2">
-                        <label for="q14"> D. Self help/Educational (Type 2)</label>
+                        <label for="q14"> D. Self help/Educational</label>
                         <br>
 
                         <br><br>
@@ -404,13 +416,13 @@
                         15. What's your favorite ice cream?
                         <br><br>
                         <input type="radio" id="q15type2" name="q15" value="type2">
-                        <label for="q15"> A. Chocolate (Type 2)</label>
+                        <label for="q15"> A. Chocolate</label>
                         <br>
                         <input type="radio" id="q15type1" name="q15" value="type1">
-                        <label for="q15"> B. Vanilla (Type 1)</label>
+                        <label for="q15"> B. Vanilla</label>
                         <br>
                         <input type="radio" id="q15type3" name="q15" value="type3">
-                        <label for="q15"> C. Sorbet (Type 3)</label>
+                        <label for="q15"> C. Sorbet</label>
                         <br>
                         <input type="radio" id="q15type4" name="q15" value="type1">
                         <label for="q15"> D. Caramel Double Fudge Peanut Butter Double Crunch Bunch</label>
@@ -434,7 +446,7 @@
                     </div>
                     <div class="col-lg-3"></div>
                 </div>
-
+                </div>
             </div>
             <div class="col-lg-3"></div>
         </div>
@@ -483,6 +495,7 @@
         var type1 = 0;
         var type2 = 0;
         var type3 = 0;
+        
 
 
     // <!-- ----------------------------------------------------------------------------------------- -->
@@ -490,20 +503,20 @@
     // <!-- ----------------------------------------------------------------------------------------- -->
 
 
-        var type1description = "<div class='winTitle'>Positive Outlook (Enneagram types 7, 9, and 2)</div><br>     You do well reframing disappointments into positivity and emphasize the good things in life. However, morale-building and helping others can take a lot of energy and effort.<br><br>     Spend some unhurried time considering your own needs and desires. Journaling or meditating before the start and end of each day can be a great benefit to knowing what you need. Trying to turn that self awareness into self care actions will be very helpful with your busy schedule. Try and focus on being rather than doing, even for brief moments throughout the day.<br><br>     Purposeful self care that is focused on things you enjoy and which fill your tank will be worth considering. Think through the activities where your needs get to be the central focus of the time spent - i.e. massages, reading a good book, doing exercise, taking a nap, etc.<br><br>     Spending time in relationships where care is reciprocal can be important for you. Think of the people that leave you feeling known and cared for after time spent together, as these are important people to make time for often. Try asking for more time and care from these people or even schedule more unhurried activities together for fun (take a walk, grab drinks/dinner, go to the park, etc)."
+        var type1description = "<div class='winTitle'>Positive Outlook<br>(Enneagram types 7, 9, and 2)</div><br>     You do well reframing disappointments into positivity and emphasize the good things in life. However, morale-building and helping others can take a lot of energy and effort.<br><br>     Spend some unhurried time considering your own needs and desires. Journaling or meditating before the start and end of each day can be a great benefit to knowing what you need. Trying to turn that self awareness into self care actions will be very helpful with your busy schedule. Try and focus on being rather than doing, even for brief moments throughout the day.<br><br>     Purposeful self care that is focused on things you enjoy and which fill your tank will be worth considering. Think through the activities where your needs get to be the central focus of the time spent - i.e. massages, reading a good book, doing exercise, taking a nap, etc.<br><br>     Spending time in relationships where care is reciprocal can be important for you. Think of the people that leave you feeling known and cared for after time spent together, as these are important people to make time for often. Try asking for more time and care from these people or even schedule more unhurried activities together for fun (take a walk, grab drinks/dinner, go to the park, etc)."
 
     // <!-- ----------------------------------------------------------------------------------------- -->
     // <!-- ----------------------------TYPE 2 DESCRIPTION------------------------------------------- -->
     // <!-- ----------------------------------------------------------------------------------------- -->
 
-        var type2description = '<div class="winTitle">Competency (Enneagram types 1, 3, and 5)</div><br>     You often strive to do the right thing and are objective, effective and competent. However, solving problems objectively and being logical can often mean you put your own subjective personal needs on the back burner in the midst of all the busyness.<br><br>     Spend some unhurried time considering your own needs and desires. Journaling or meditating before the start and end of each day can be a great benefit to knowing what you need.  Trying to turn that self awareness into self care actions will be very helpful with your busy schedule. Be careful not to turn any self care such as these activities into measurable, actionable goals you can track, rank, or be hard on yourself for not accomplishing “correctly."<br> <br>     Purposeful self care where you are making time for yourself will be important for you. Slowing down mentally and physically can be difficult for you, and self care that is action oriented will be comfortable for you. That being said, making sure you are integrating slowness and rest (both mentally and physically) will be of much benefit.<br><br>     Pay attention to relationships you feel like are meaningful to you. Take some more unhurried time to talk and connect with these people, especially about seemingly unimportant issues. Linger over a long meal, make a coffee date, or take a long walk with these people where you can reminisce about the past and dream about the future together.'
+        var type2description = '<div class="winTitle">Competency<br>(Enneagram types 1, 3, and 5)</div><br>     You often strive to do the right thing and are objective, effective and competent. However, solving problems objectively and being logical can often mean you put your own subjective personal needs on the back burner in the midst of all the busyness.<br><br>     Spend some unhurried time considering your own needs and desires. Journaling or meditating before the start and end of each day can be a great benefit to knowing what you need.  Trying to turn that self awareness into self care actions will be very helpful with your busy schedule. Be careful not to turn any self care such as these activities into measurable, actionable goals you can track, rank, or be hard on yourself for not accomplishing “correctly."<br> <br>     Purposeful self care where you are making time for yourself will be important for you. Slowing down mentally and physically can be difficult for you, and self care that is action oriented will be comfortable for you. That being said, making sure you are integrating slowness and rest (both mentally and physically) will be of much benefit.<br><br>     Pay attention to relationships you feel like are meaningful to you. Take some more unhurried time to talk and connect with these people, especially about seemingly unimportant issues. Linger over a long meal, make a coffee date, or take a long walk with these people where you can reminisce about the past and dream about the future together.'
 
 
     // <!-- ----------------------------------------------------------------------------------------- -->
     // <!-- ----------------------------TYPE 3 DESCRIPTION------------------------------------------- -->
     // <!-- ----------------------------------------------------------------------------------------- -->
 
-        var type3description = "<div class='winTitle'>Reactive (Enneagram types 4, 6, and 8)</div><br>     You have a lot going on in your life, and it can be hard to balance needs for independence and self-determination with the need to be nurtured and supported by others. Remember that it’s good to have needs and you need to be the first person aware of your own needs and offering them in healthy ways to safe people in your community. <br><br>     Spend some unhurried time considering your own needs and desires. Journaling or meditating before the start and end of each day can be a great benefit to knowing what you need.  Trying to turn that self awareness into self care actions will be very helpful with your busy schedule. Knowing yourself can help you slow down and connect to deeper ways you can care for and define yourself well. Practicing gratitude and writing down the things you are thankful for presently can also be helpful.<br><br>     Purposeful self care where you are making time for yourself will be important for you. Think through the places where you feel the most connected and make sure you are integrating these activities into your day to day. Remember that self care is not selfish and that you need to fill your own tank before you accomplish anything great or are able to care deeply for the needs of others.<br><br>     Ponder the relationships in which you feel you get to be the real you. Think about what it might look like to look for deeper connections with these people. Try scheduling a weekly unhurried hang time where you get to debrief and care for each other and have fun (taking a walk, supper club, board game night, etc)."
+        var type3description = "<div class='winTitle'>Reactive<br>(Enneagram types 4, 6, and 8)</div><br>     You have a lot going on in your life, and it can be hard to balance needs for independence and self-determination with the need to be nurtured and supported by others. Remember that it’s good to have needs and you need to be the first person aware of your own needs and offering them in healthy ways to safe people in your community. <br><br>     Spend some unhurried time considering your own needs and desires. Journaling or meditating before the start and end of each day can be a great benefit to knowing what you need.  Trying to turn that self awareness into self care actions will be very helpful with your busy schedule. Knowing yourself can help you slow down and connect to deeper ways you can care for and define yourself well. Practicing gratitude and writing down the things you are thankful for presently can also be helpful.<br><br>     Purposeful self care where you are making time for yourself will be important for you. Think through the places where you feel the most connected and make sure you are integrating these activities into your day to day. Remember that self care is not selfish and that you need to fill your own tank before you accomplish anything great or are able to care deeply for the needs of others.<br><br>     Ponder the relationships in which you feel you get to be the real you. Think about what it might look like to look for deeper connections with these people. Try scheduling a weekly unhurried hang time where you get to debrief and care for each other and have fun (taking a walk, supper club, board game night, etc)."
         
 
     // <!-- ----------------------------------------------------------------------------------------- -->
@@ -515,6 +528,7 @@
             var q1type2 = document.getElementById("q1type2");
             var q1type3 = document.getElementById("q1type3");
             var q1type4 = document.getElementById("q1type4");
+
 
             // ---- QUESTION 1 SECTION -------------------------
             if (q1type1.checked == true) {
@@ -957,14 +971,19 @@
             console.log("type1 total = " + type1);
             console.log("type2 total = " + type2);
             console.log("type3 total = " + type3);
-
+            var typeTotal = type1+type2+type3;
 
             $(".quizArea").empty();
             
             if (type1 == 0 && type2 == 0 && type3 == 0){
                 console.log("QUIZ IS BLANK");
                 $(".answersAreaDisplay").append("<div class='blankAns'>QUIZ IS BLANK</div>");
-            } else if (type1 > type2 && type1 > type3) {
+            } else if (type1+type2+type3 < 15){
+                console.log("INCOMPLETE");
+                console.log(type1+type2+type3 + "/15 answered");
+                $(".answersAreaDisplay").append("<div class='blankAns'>QUIZ INCOMPLETE</div>");
+                $(".answersAreaDisplay").append("<div class='blankAns'>" + typeTotal + "<span>/15 ANSWERED</span></div>");
+            }else if (type1 > type2 && type1 > type3) {
                 console.log("type 1 won");
                 $(".answersAreaDisplay").append("<div class='win1'>" + type1description + "</div>");
             } else if (type2 > type1 && type2 > type3) {
